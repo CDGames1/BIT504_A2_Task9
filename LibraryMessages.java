@@ -6,6 +6,7 @@ public class LibraryMessages {
     public static void showAll() {
         showWelcome();
         showOpeningHours();
+        showBookService();
     }
 
     public static void showWelcome() {
@@ -14,5 +15,9 @@ public class LibraryMessages {
 
     public static void showOpeningHours() {
         System.out.println("opening hours are 9 am to 5 pm");
+    }
+
+    public static void showBookService() {
+        System.out.println("books can be borrowed from the service desk");
     }
 }
