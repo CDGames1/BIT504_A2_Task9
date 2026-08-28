@@ -6,6 +6,7 @@ public class LibraryHelp {
     public static void showAll() {
         showSearchHelp();
         showLoanHelp();
+        showGoodbye();
     }
 
     public static void showSearchHelp() {
@@ -14,5 +15,9 @@ public class LibraryHelp {
 
     public static void showLoanHelp() {
         System.out.println("use option 3 to manage book loans");
+    }
+
+    public static void showGoodbye() {
+        System.out.println("thank you for using the library program");
     }
 }
