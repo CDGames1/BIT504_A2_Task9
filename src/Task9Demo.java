@@ -13,5 +13,6 @@ public class Task9Demo {
         System.out.println("BIT504 source control demonstration");
         System.out.println("Books can be borrowed from the service desk");
         System.out.println("Members can ask staff to update their details");
+        System.out.println("Thank you for visiting the library");
     }
 }
