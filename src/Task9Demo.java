@@ -14,5 +14,6 @@ public class Task9Demo {
         System.out.println("Welcome to the local library");
         System.out.println("Opening hours are nine to five");
         System.out.println("Ask the front desk if you need help");
+        System.out.println("Version one is ready");
     }
 }
