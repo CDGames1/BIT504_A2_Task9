@@ -7,6 +7,7 @@ public class LibraryMessages {
         showWelcome();
         showOpeningHours();
         showBookService();
+        showMemberService();
     }
 
     public static void showWelcome() {
@@ -19,5 +20,9 @@ public class LibraryMessages {
 
     public static void showBookService() {
         System.out.println("books can be borrowed from the service desk");
+    }
+
+    public static void showMemberService() {
+        System.out.println("members can borrow 1 book at a time");
     }
 }
