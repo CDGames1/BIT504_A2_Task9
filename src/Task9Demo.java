@@ -12,5 +12,6 @@ public class Task9Demo {
     public static void main(String[] args) {
         System.out.println("BIT504 source control demonstration");
         System.out.println("Welcome to the local library");
+        System.out.println("Opening hours are nine to five");
     }
 }
